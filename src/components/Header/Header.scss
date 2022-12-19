@@ -1,0 +1,116 @@
+.Header {
+  font-size: 14px;
+  line-height: 17px;
+
+  &_first {
+    background: #F8F8F8;
+    color: #8291A3;
+
+    &_container {
+      height: 40px;
+      margin: 0 80px;
+      display: flex;
+      justify-content: space-between;
+
+      &_left {
+        display: flex;
+        gap: 57px;
+        align-items: center;
+        font-weight: 400;
+
+        a {
+          text-decoration: none;
+          color: #8291A3;
+        }
+
+        &_buttons {
+          height: 17px;
+
+        }
+      }
+
+      &_right {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        font-weight: 500;
+
+        &_buttons {
+          height: 17px;
+        }
+      }
+    }
+  }
+
+  &_second {
+    color: #1E2123;
+
+    &_container {
+      height: 60px;
+      margin: 0 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &_logo {
+        width: 134px;
+        height: 19px;
+        background-image: url('../../../public/png/logo.png');
+      }
+
+      &_center {
+        font-weight: 600;
+        display: flex;
+        gap: 80px;
+
+      }
+
+      &_place {
+        border-style: none;
+        width: 224px;
+        height: 37px;
+        border-radius: 19px;
+        background: linear-gradient(90deg, #9D94FF 0%, #6B50E9 94.5%);
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.point {
+  position: relative;
+  margin-left: 13px;
+
+  &::before {
+    content: url('../../../public/svg/point.svg');
+    position: absolute;
+    left: -13px;
+  }
+}
+
+.like {
+  position: relative;
+  margin-right: 26px;
+
+  &::after {
+    content: url('../../../public/svg/like.svg');
+    position: absolute;
+    margin-left: 11px;
+  }
+}
+
+.login {
+  color: #664EF9;
+}
+
+.pointY {
+  position: relative;
+  margin-right: 27px;
+
+  &::after {
+    content: url('../../../public/svg/pointY.svg');
+    position: absolute;
+    margin-left: 15px;
+  }
+}
