@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sdaem/static/css/main.218aff85.css",
-    "main.js": "/sdaem/static/js/main.85f51a0b.js",
+    "main.css": "/sdaem/static/css/main.60c5d791.css",
+    "main.js": "/sdaem/static/js/main.d0edd31f.js",
     "static/js/787.96c3c854.chunk.js": "/sdaem/static/js/787.96c3c854.chunk.js",
     "static/media/Inter-ThinItalicBETA.eot": "/sdaem/static/media/Inter-ThinItalicBETA.d48d71c60397c964c3c3.eot",
     "static/media/Inter-ThinItalicBETA.ttf": "/sdaem/static/media/Inter-ThinItalicBETA.ab1bddda75ef8313afa1.ttf",
@@ -39,6 +39,7 @@
     "static/media/Inter-Black.ttf": "/sdaem/static/media/Inter-Black.8032beb7856bb7dbe0bc.ttf",
     "static/media/Inter-Regular.eot": "/sdaem/static/media/Inter-Regular.f5b04bf996cdaa04b4ea.eot",
     "static/media/Inter-Regular.ttf": "/sdaem/static/media/Inter-Regular.991468dd4e43f260e6a4.ttf",
+    "static/media/visa.svg": "/sdaem/static/media/visa.a2eec7ec57dfce85d67a.svg",
     "static/media/Inter-ThinItalicBETA.woff": "/sdaem/static/media/Inter-ThinItalicBETA.2e9280712a9b6cb10f84.woff",
     "static/media/Inter-ExtraLightItalicBETA.woff": "/sdaem/static/media/Inter-ExtraLightItalicBETA.e55ddd207377e664006f.woff",
     "static/media/Inter-LightItalicBETA.woff": "/sdaem/static/media/Inter-LightItalicBETA.8b20feb8a61e99663076.woff",
@@ -75,16 +76,24 @@
     "static/media/Inter-Medium.woff2": "/sdaem/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
     "static/media/Inter-Black.woff2": "/sdaem/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
     "static/media/Inter-Regular.woff2": "/sdaem/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/mastercard.svg": "/sdaem/static/media/mastercard.679a488ad8d007bbd1a8.svg",
+    "static/media/securecode.svg": "/sdaem/static/media/securecode.9d81ce688fc53737b4ca.svg",
+    "static/media/verified-by-visa.svg": "/sdaem/static/media/verified-by-visa.cf71652e876749e2d4c6.svg",
+    "static/media/webpay.svg": "/sdaem/static/media/webpay.668c1ad7e87b511d5082.svg",
+    "static/media/belkart.svg": "/sdaem/static/media/belkart.dba305671653ab5f3ef6.svg",
+    "static/media/inst.svg": "/sdaem/static/media/inst.fc6fe3263c89ca8d129f.svg",
+    "static/media/vk.svg": "/sdaem/static/media/vk.ae9fd1ce0da26d63fbf0.svg",
     "static/media/like.svg": "/sdaem/static/media/like.ac7cdd0665cc51e2ce40.svg",
     "static/media/pointY.svg": "/sdaem/static/media/pointY.2ed5cce691bd11749537.svg",
     "static/media/point.svg": "/sdaem/static/media/point.32b0e3fa5551a4c089b8.svg",
     "index.html": "/sdaem/index.html",
-    "main.218aff85.css.map": "/sdaem/static/css/main.218aff85.css.map",
-    "main.85f51a0b.js.map": "/sdaem/static/js/main.85f51a0b.js.map",
+    "static/media/facebook.svg": "/sdaem/static/media/facebook.53955358e2927df769a6.svg",
+    "main.60c5d791.css.map": "/sdaem/static/css/main.60c5d791.css.map",
+    "main.d0edd31f.js.map": "/sdaem/static/js/main.d0edd31f.js.map",
     "787.96c3c854.chunk.js.map": "/sdaem/static/js/787.96c3c854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.218aff85.css",
-    "static/js/main.85f51a0b.js"
+    "static/css/main.60c5d791.css",
+    "static/js/main.d0edd31f.js"
   ]
 }
