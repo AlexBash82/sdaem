@@ -1,0 +1,179 @@
+.Footer {
+  height: 158px;
+  margin: 39px 80px 53px;
+  font-size: 14px;
+  line-height: 17px;
+
+  &_container {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+
+    &_main {
+      height: 100%;
+      width: 297px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #8291A3;
+
+      &_box {
+        &_logo {
+          width: 134px;
+          height: 19px;
+          background-image: url('../../../public/png/logo.png');
+        }
+
+        &_text {
+          margin-top: 10px;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+
+        }
+      }
+
+      &_info {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+
+    &_additional {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &_search {
+        height: 92px;
+        width: 100%;
+        display: flex;
+        gap: 70px;
+
+        &_main {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          font-weight: 700;
+        }
+
+        &_apartments {
+          width: 340px;
+
+          &_title {
+            margin-bottom: 10px;
+            font-weight: 700;
+          }
+
+          &_box {
+            display: flex;
+            justify-content: space-between;
+
+            &_column {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              font-weight: 400;
+              color: #8291A3;
+            }
+          }
+        }
+
+        &_others {
+          width: 157px;
+          margin-left: 27px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          font-weight: 400;
+          color: #8291A3;
+        }
+      }
+
+      &_box {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        gap: 284px;
+
+        &_social {
+          width: 250px;
+          display: flex;
+          gap: 15px;
+
+          &_text {
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+          }
+
+          &_inst {
+            width: 30px;
+            background-image: url('../../../public/svg/inst.svg');
+            background-size: contain;
+          }
+
+          &_vk {
+            width: 30px;
+            background-image: url('../../../public/svg/vk.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 0 center;
+          }
+
+          &_fb {
+            width: 30px;
+            background-image: url('../../../public/svg/facebook.svg');
+            background-size: contain;
+          }
+        }
+
+        &_payment {
+          height: 30px;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+
+          &_visa {
+            width: 42px;
+            height: 13px;
+            background-image: url('../../../public/svg/visa.svg');
+          }
+
+          &_webpay {
+            width: 86px;
+            height: 16px;
+            background-image: url('../../../public/svg/webpay.svg');
+          }
+
+          &_verified {
+            width: 38px;
+            height: 16px;
+            background-image: url('../../../public/svg/verified-by-visa.svg');
+          }
+
+          &_mastercard {
+            width: 26px;
+            height: 20px;
+            background-image: url('../../../public/svg/mastercard.svg');
+          }
+
+          &_secure {
+            width: 46px;
+            height: 16px;
+            background-image: url('../../../public/svg/securecode.svg');
+          }
+
+          &_belkart {
+            width: 22px;
+            height: 30px;
+            background-image: url('../../../public/svg/belkart.svg');
+          }
+        }
+      }
+    }
+  }
+}
