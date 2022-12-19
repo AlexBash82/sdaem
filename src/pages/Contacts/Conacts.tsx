@@ -9,7 +9,7 @@ export const Contacts = () => {
     <>
       <Header/>
       <div>Contacts</div>
-      <Link to="/">to home</Link>
+      <Link to="/sdaem/">to home</Link>
       <Footer/>
     </>
   )
