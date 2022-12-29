@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css';
 import { Contacts } from './pages/Contacts/Conacts';
+import { Error404 } from './pages/Error404/Error404';
 import { Main } from './pages/Main/Main';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/sdaem/' element={<Main/>}/>
         <Route path='/sdaem/contacts' element={<Contacts/>}/>
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </>
   );

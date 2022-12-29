@@ -1,0 +1,60 @@
+.ErrorPage {
+  position: relative;
+  width: 1440px;
+  height: 599px;
+  background: linear-gradient(360deg, #7E6AF3 15.95%, #6540CD 63.1%);
+
+  &_img {
+    width: 1440px;
+    height: 599px;
+    background: url('../../../public/png/city-map.png');
+    mix-blend-mode: overlay;
+    //opacity: 0.2;
+    filter: blur(2px);
+  }
+
+  &_container {
+    position: absolute;
+    top: 175px;
+    left: 189px;
+    width: 1027px;
+    height: 239px;
+
+    &_left {
+
+      &_title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 73px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+      }
+
+      &_text {
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+
+      &_button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1E2123;
+      }
+    }
+
+    &_right {
+      width: 553px;
+      height: 213px;
+      border: 1px solid red;
+      overflow: hidden;
+
+      &_img {
+        width: 590px;
+        height: 275px;
+        background: url('../../../public/svg/404.svg') -30px -32px /cover no-repeat;
+      }
+    }
+  }
+}
