@@ -1,0 +1,75 @@
+.Menu {
+  width: 1062px;
+  height: 143px;
+  z-index: 2;
+
+  &_bookmarks {
+    width: 637px;
+    height: 54px;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 600;
+    overflow: hidden;
+
+    &_item {
+      height: 54px;
+      padding: 13px 20px 24px;
+      box-sizing: border-box;
+      background: rgba(45, 57, 136, 0.5);
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+  &_main {
+    width: 1062px;
+    height: 100px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 10px;
+    top: -11px;
+    padding: 15px 20px 20px;
+    box-sizing: border-box;
+
+    &_apartments {
+      height: 65px;
+      display: flex;
+      gap: 20px;
+
+      &_list {
+        color: #686868;
+        height: 65px;
+
+        &_title {
+          margin-bottom: 11px;
+        }
+
+        &_button {
+          position: relative;
+          width: 150px;
+          height: 37px;
+          background: #F8F8F8;
+          border-radius: 20px;
+          padding: 9px 69px 11px 12px;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}
+
+.choice {
+  border-radius: 10px 10px 0px 0px;
+  background: #FFFFFF;
+  color: #664EF9;
+}
+
+.chevron {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 18px;
+  height: 18px;
+  background: url('../../../public/svg/chevron.svg') center no-repeat;
+
+}

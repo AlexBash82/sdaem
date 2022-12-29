@@ -1,0 +1,50 @@
+.Board {
+  width: 100vw;
+  height: 516px;
+
+  &_container {
+    position: relative;
+    width: 1285px;
+    height: 430px;
+    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+    //background: linear-gradient(90deg, #FF7B58 0%, #FF446A 94.5%);
+    background: linear-gradient(360deg, #7E6AF3 15.95%, #6540CD 63.1%);
+
+    &_img {
+      width: 1285px;
+      height: 430px;
+      border-radius: 0px 0px 40px 40px;
+      background: url('../../../public/png/city-map.png');
+      mix-blend-mode: overlay;
+      //opacity: 0.2;
+      filter: blur(2px);
+    }
+
+    &_box {
+      position: absolute;
+      width: 1062px;
+      height: 230px;
+      top: 82px;
+      left: 112px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+
+      &_title {
+        display: flex;
+        gap: 9px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        text-shadow: 0px 2px 5px rgba(0, 14, 142, 0.3);
+      }
+    }
+  }
+}
+
+.orange {
+  color: #FFD54f;
+}
