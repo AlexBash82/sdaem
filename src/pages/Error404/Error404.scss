@@ -19,10 +19,16 @@
     left: 189px;
     width: 1027px;
     height: 239px;
+    display: flex;
+    
 
     &_left {
+      width: 474px;
+      height: 239px;
 
       &_title {
+        width: 474px;
+        height: 73px;
         font-weight: 700;
         font-size: 60px;
         line-height: 73px;
@@ -31,30 +37,71 @@
       }
 
       &_text {
+        box-sizing: border-box;
+        width: 447px;
+        height: 68px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        padding: 10px;
         font-size: 20px;
         line-height: 24px;
         color: #FFFFFF;
       }
 
+      a {
+        text-decoration: none;
+      }
+
       &_button {
+        position: relative;
+        width: 249px;
+        height: 48px;
+        box-sizing: border-box;
+        padding: 12px 24px;
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;
+        text-align: end;
         color: #1E2123;
+        background: #FFD54F;
+        border-radius: 33px;
+        cursor: pointer;
+
+        &::before {
+          content: url('../../../public/svg/home.svg');
+          position: absolute;
+          left: 24px;
+        }
+
+        &:hover {
+          background: #FEC100;
+        }
       }
     }
 
     &_right {
       width: 553px;
       height: 213px;
-      border: 1px solid red;
+      margin-top: 11px;
       overflow: hidden;
 
       &_img {
         width: 590px;
-        height: 275px;
-        background: url('../../../public/svg/404.svg') -30px -32px /cover no-repeat;
+        height: 273px;
+        background: url('../../../public/svg/404.svg') -30px -30px /cover no-repeat;
       }
     }
   }
+}
+
+.DottedBoxYellow {
+  position: absolute;
+  top: 96px;
+  left: 80px;
+}
+
+.DottedBoxWhite {
+  position: absolute;
+  top: 459px;
+  right: 186px;
 }

@@ -3,7 +3,7 @@ import { List } from '../List/List'
 import './SearchBoard.scss'
 
 export const SearchBoard = () => {
-  const [choice, setChoice] = useState('cottages')
+  const [choice, setChoice] = useState('apartments')
   const [isOpen, setIsOpen] = useState(false)
   const [opened, setOpened] = useState('')
 
