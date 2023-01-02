@@ -11,7 +11,8 @@ function App() {
       <Routes>
         <Route path='/sdaem/' element={<Main/>}/>
         <Route path='/sdaem/contacts' element={<Contacts/>}/>
-        <Route path='*' element={<Error404/>}/>
+        <Route path='/sdaem/*' element={<Error404/>}/>
+        <Route path='/sdaem/404' element={<Error404/>}/>
       </Routes>
     </>
   );
