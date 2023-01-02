@@ -4,17 +4,40 @@ import './SearchBoard.scss'
 
 export const SearchBoard = () => {
   const [choice, setChoice] = useState('apartments')
-  const [isOpen, setIsOpen] = useState(false)
-  const [opened, setOpened] = useState('')
+  const [isOpenCity, setIsOpenCity] = useState(false)
+  const [choicenCity, setChoicenCity] = useState('Выберите') 
+  const [isOpenApartment, setIsOpenApartment] = useState(false)
+  const [choicenApartment, setChoicenApartment] = useState('Выберите')
 
-  const openClose = (name: string) => {
-    if(isOpen) {
-      setIsOpen(false)
-      setOpened('')
-    } else {
-      setOpened(name)
-      setIsOpen(true)
+  const openCloseList = (name: string) => {
+    switch (name) {
+      case 'city':
+        if(isOpenCity) {
+          setIsOpenCity(false)
+        } else {
+          setIsOpenCity(true)
+        }
+        break;
+      case 'apartment':
+        if(isOpenApartment) {
+          setIsOpenApartment(false)
+        } else {
+          setIsOpenApartment(true)
+        }
+        break;
     }
+
+
+  }
+
+  const selectCity = (name: string) => {
+    setChoicenCity(name);
+    setIsOpenCity(false);
+  }
+
+  const selectApartment = (name: string) => {
+    setChoicenApartment(name);
+    setIsOpenApartment(false);
   }
 
   return (
@@ -45,21 +68,29 @@ export const SearchBoard = () => {
           <div className='Menu_main_apartments'>
             <div className='Menu_main_apartments_list'>
               <div className='Menu_main_apartments_list_title'>Город</div>
-              <div
-                className='Menu_main_apartments_list_button'
-                onClick={() => openClose('city')}
-                >Выберите<div className='chevron'/>
+              <div className='Menu_main_apartments_list_box'>
+                <div
+                  className={`Menu_main_apartments_list_box_button ${isOpenCity? 'activeButton' : ''}`}
+                  onClick={() => openCloseList('city')}
+                  >{choicenCity}
+                </div>
+                <div className='chevron'/>
+                {isOpenCity ? <List select={selectCity} name={'city'}/> : false}
               </div>
-              {(opened === 'city') ? <List name={'city'}/> : false}
             </div>
+
             <div className='line'/>
+
             <div className='Menu_main_apartments_list'>
               <div className='Menu_main_apartments_list_title'>Комнаты</div>
-              <div
-                className='Menu_main_apartments_list_button'
-                //onClick={() => openClose('city')}
-                >Выберите
+              <div className='Menu_main_apartments_list_box'>
+                <div
+                  className={`Menu_main_apartments_list_box_button ${isOpenApartment? 'activeButton' : ''}`}
+                  onClick={() => openCloseList('apartment')}
+                  >{choicenApartment}
+                </div>
                 <div className='chevron'/>
+                {isOpenApartment ? <List select={selectApartment} name={'apartment'}/> : false}
               </div>
             </div>
           </div>
