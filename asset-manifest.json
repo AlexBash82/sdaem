@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sdaem/static/css/main.e6d431a6.css",
-    "main.js": "/sdaem/static/js/main.66b8cc41.js",
+    "main.css": "/sdaem/static/css/main.dae16ab6.css",
+    "main.js": "/sdaem/static/js/main.b2e2ce8d.js",
     "static/js/787.96c3c854.chunk.js": "/sdaem/static/js/787.96c3c854.chunk.js",
     "static/media/Inter-ThinItalicBETA.eot": "/sdaem/static/media/Inter-ThinItalicBETA.d48d71c60397c964c3c3.eot",
     "static/media/Inter-ThinItalicBETA.ttf": "/sdaem/static/media/Inter-ThinItalicBETA.ab1bddda75ef8313afa1.ttf",
@@ -59,6 +59,8 @@
     "static/media/Inter-Medium.woff": "/sdaem/static/media/Inter-Medium.44e343ff76a98508d309.woff",
     "static/media/Inter-Black.woff": "/sdaem/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
     "static/media/Inter-Regular.woff": "/sdaem/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/saunas.jpg": "/sdaem/static/media/saunas.4f242880b88a29ccc490.jpg",
+    "static/media/apartments.jpg": "/sdaem/static/media/apartments.a2ed38fc9f4f448faebb.jpg",
     "static/media/Inter-ThinItalicBETA.woff2": "/sdaem/static/media/Inter-ThinItalicBETA.d508e6eecd6ce429c5fb.woff2",
     "static/media/Inter-ExtraLightItalicBETA.woff2": "/sdaem/static/media/Inter-ExtraLightItalicBETA.3b6f575f5d2f96f8d047.woff2",
     "static/media/Inter-LightItalicBETA.woff2": "/sdaem/static/media/Inter-LightItalicBETA.059c2f3980c6390aeb61.woff2",
@@ -76,8 +78,10 @@
     "static/media/Inter-SemiBold.woff2": "/sdaem/static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
     "static/media/Inter-Medium.woff2": "/sdaem/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
     "static/media/Inter-Black.woff2": "/sdaem/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
+    "static/media/cottages.jpg": "/sdaem/static/media/cottages.cd60561234fc2c9f59fb.jpg",
     "static/media/Inter-Regular.woff2": "/sdaem/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "static/media/mastercard.svg": "/sdaem/static/media/mastercard.679a488ad8d007bbd1a8.svg",
+    "static/media/cars.jpg": "/sdaem/static/media/cars.08fd21a43e6f4d2f23cd.jpg",
     "static/media/securecode.svg": "/sdaem/static/media/securecode.9d81ce688fc53737b4ca.svg",
     "static/media/verified-by-visa.svg": "/sdaem/static/media/verified-by-visa.cf71652e876749e2d4c6.svg",
     "static/media/webpay.svg": "/sdaem/static/media/webpay.668c1ad7e87b511d5082.svg",
@@ -88,19 +92,20 @@
     "static/media/vk.svg": "/sdaem/static/media/vk.ae9fd1ce0da26d63fbf0.svg",
     "static/media/like.svg": "/sdaem/static/media/like.ac7cdd0665cc51e2ce40.svg",
     "static/media/home.svg": "/sdaem/static/media/home.7f7945d735f856f2ebd2.svg",
-    "static/media/pointB.svg": "/sdaem/static/media/pointB.b3ca8ed5911d5ffb2609.svg",
-    "static/media/pointY.svg": "/sdaem/static/media/pointY.2ed5cce691bd11749537.svg",
-    "static/media/point.svg": "/sdaem/static/media/point.32b0e3fa5551a4c089b8.svg",
+    "static/media/point-blue.svg": "/sdaem/static/media/point-blue.b3ca8ed5911d5ffb2609.svg",
+    "static/media/point-yellow.svg": "/sdaem/static/media/point-yellow.2ed5cce691bd11749537.svg",
+    "static/media/point-gray.svg": "/sdaem/static/media/point-gray.32b0e3fa5551a4c089b8.svg",
     "index.html": "/sdaem/index.html",
     "static/media/facebook.svg": "/sdaem/static/media/facebook.53955358e2927df769a6.svg",
-    "static/media/chevronR.svg": "/sdaem/static/media/chevronR.e09a6dcc0f871c8f68af.svg",
-    "static/media/chevron.svg": "/sdaem/static/media/chevron.a1f5de50219ba5c418a7.svg",
-    "main.e6d431a6.css.map": "/sdaem/static/css/main.e6d431a6.css.map",
-    "main.66b8cc41.js.map": "/sdaem/static/js/main.66b8cc41.js.map",
+    "static/media/chevron-right-white.svg": "/sdaem/static/media/chevron-right-white.583e901c8545e3d6c001.svg",
+    "static/media/chevron-right-black.svg": "/sdaem/static/media/chevron-right-black.e09a6dcc0f871c8f68af.svg",
+    "static/media/chevron-blue.svg": "/sdaem/static/media/chevron-blue.a1f5de50219ba5c418a7.svg",
+    "main.dae16ab6.css.map": "/sdaem/static/css/main.dae16ab6.css.map",
+    "main.b2e2ce8d.js.map": "/sdaem/static/js/main.b2e2ce8d.js.map",
     "787.96c3c854.chunk.js.map": "/sdaem/static/js/787.96c3c854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6d431a6.css",
-    "static/js/main.66b8cc41.js"
+    "static/css/main.dae16ab6.css",
+    "static/js/main.b2e2ce8d.js"
   ]
 }
