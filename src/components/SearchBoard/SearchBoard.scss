@@ -46,9 +46,10 @@
 
         &_box {
           position: relative;
+          width: 150px;
+          height: 37px;
 
           &_button {
-            position: relative;
             box-sizing: border-box;
             width: 150px;
             height: 37px;
@@ -61,6 +62,123 @@
           &_button:hover {
             background: rgba(102, 78, 249, 0.1);
           }
+        }
+      }
+
+      &_price {
+        color: #686868;
+        height: 65px;
+
+        &_title {
+          margin-bottom: 11px;
+        }
+
+        &_box {
+          position: relative;
+          width: 175px;
+          height: 37px;
+          display: flex;
+          gap: 4px;
+
+          &_button {
+            box-sizing: border-box;
+            width: 80px;
+            height: 37px;
+            background: #F8F8F8;
+            border-radius: 20px;
+            padding: 9px 26px 11px 12px;
+            cursor: pointer;
+          }
+
+          &_button:hover {
+            background: rgba(102, 78, 249, 0.1);
+          }
+
+          &_middle {
+            width: 7px;
+            align-self: center;
+            color: #4E64F9;
+          }
+        }        
+      }
+
+      &_options {
+        width: 122px;
+        height: 18px;
+        align-self: center;
+        cursor: pointer;
+
+        &_box {
+          position: relative;
+
+          &_title {
+            color: #1E2123;
+          }
+
+          &_adjust {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 0px;
+            left: 104px;
+            background-image: url('../../../public/svg/adjust.svg');
+          }
+        }
+      }
+
+
+      &_map {
+        width: 79px;
+        height: 18px;
+        margin-left: 13px;
+        margin-right: 16px;
+        align-self: center;
+        cursor: pointer;
+
+        &_box {
+          position: relative;
+
+          &_title {
+            color: #1E2123;
+          }
+
+          &_point {
+            position: absolute;
+            width: 12px;
+            height: 15px;
+            top: 0px;
+            left: 67px;
+            background-image: url('../../../public/svg/pointB.svg');
+          }
+        }
+      }
+
+      &_box {
+        width: 123px;
+        height: 37px;
+        border-radius: 22px;
+        align-self: center;
+        position: relative;
+        cursor: pointer;
+
+        &_button {
+          background: #FFD54F;
+          border-radius: 22px;
+          width: 123px;
+          height: 37px;
+          box-sizing: border-box;
+          padding: 10px 16px;
+          font-weight: 700;
+          color: #242424;
+        }
+
+        &_chevron {
+          position: absolute;
+          width: 19px;
+          height: 19px;
+          top: 9px;
+          left: 88px;
+          background-image: url('../../../public/svg/chevronR.svg');
         }
       }
     }
@@ -80,11 +198,14 @@
   width: 18px;
   height: 18px;
   background: url('../../../public/svg/chevron.svg') center no-repeat;
-
 }
 
 .activeButton {
   background: #FFFFFF;
   border: 2px solid rgba(102, 78, 249, 0.8);
   padding: 7px 24px 9px 10px;
+}
+
+.line {
+  border-right: 1px solid rgba(102, 78, 249, 0.1);
 }
