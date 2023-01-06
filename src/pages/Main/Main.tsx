@@ -3,7 +3,7 @@ import './Main.scss'
 import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import { SearchBoard } from '../../components/SearchBoard/SearchBoard'
-import { DottedBox } from '../../Modules/DottedBox/DottedBox'
+import { Cards } from '../../components/Cards/Cards'
 
 export const Main = () => {
   return (
@@ -21,6 +21,7 @@ export const Main = () => {
           </div>
         </div>
       </div>
+      <Cards/>
       <div>Main</div>
       <Footer/>
     </>
