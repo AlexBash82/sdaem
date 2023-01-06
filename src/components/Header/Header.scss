@@ -83,7 +83,7 @@
   margin-left: 13px;
 
   &::before {
-    content: url('../../../public/svg/point.svg');
+    content: url('../../../public/svg/point-gray.svg');
     position: absolute;
     left: -13px;
   }
@@ -109,7 +109,7 @@
   margin-right: 27px;
 
   &::after {
-    content: url('../../../public/svg/pointY.svg');
+    content: url('../../../public/svg/point-yellow.svg');
     position: absolute;
     margin-left: 15px;
   }

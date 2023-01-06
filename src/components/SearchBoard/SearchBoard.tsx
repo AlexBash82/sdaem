@@ -93,6 +93,40 @@ export const SearchBoard = () => {
                 {isOpenApartment ? <List select={selectApartment} name={'apartment'}/> : false}
               </div>
             </div>
+
+            <div className='line'/>
+
+            <div className='Menu_main_apartments_price'>
+              <div className='Menu_main_apartments_price_title'>Цена за сутки (BYN)</div>
+              <div className='Menu_main_apartments_price_box'>
+                <div className='Menu_main_apartments_price_box_button'>От</div>
+                <div className='Menu_main_apartments_price_box_middle'>-</div>
+                <div className='Menu_main_apartments_price_box_button'>До</div>
+              </div>
+            </div>
+
+            <div className='line'/>
+
+            <div className='Menu_main_apartments_options'>
+              <div className='Menu_main_apartments_options_box'>
+                <div className='Menu_main_apartments_options_box_title'>Больше опций</div>
+                <div className='Menu_main_apartments_options_box_adjust'/>
+              </div>
+            </div>
+
+            <div className='line'/>
+
+            <div className='Menu_main_apartments_map'>
+              <div className='Menu_main_apartments_map_box'>
+                <div className='Menu_main_apartments_map_box_title'>На карте</div>
+                <div className='Menu_main_apartments_map_box_point'/>
+              </div>
+            </div>
+
+            <div className='Menu_main_apartments_box'>
+              <div className='Menu_main_apartments_box_button'>Показать</div>
+              <div className='Menu_main_apartments_box_chevron'/>
+            </div>
           </div>
         }
       </div>

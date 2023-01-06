@@ -17,8 +17,8 @@ export const List: React.FC<ListProps>  = (props) => {
 
   return (
     <div className='Main'>
-      {name === 'city' ? city.map(item => <div onClick={() => select(item)} className='Main_item'>{item}</div>) : false}
-      {name === 'apartment' ? apartment.map(item => <div onClick={() => select(item)} className='Main_item'>{item}</div>) : false}
+      {name === 'city' ? city.map(item => <div key={item} onClick={() => select(item)} className='Main_item'>{item}</div>) : false}
+      {name === 'apartment' ? apartment.map(item => <div key={item} onClick={() => select(item)} className='Main_item'>{item}</div>) : false}
     </div>
   )
 }
