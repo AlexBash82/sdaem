@@ -1,16 +1,19 @@
 .Cards {
-  width: 100%;
+  width: 100vw;
   height: 674px;
+  height: 685px;
 
   &_container {
     width: 1280px;
-    height: 560px;
+    height: 570px;
     margin: auto;
     display: flex;
+    gap: 30px;
+    position: relative;
 
     &_left {
       width: 953px;
-      height: 560px;
+      height: 570px;
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
@@ -108,6 +111,67 @@
       width: 297px;
       height: 560px;
 
+      &_box {
+        width: 100%;
+        margin-bottom: 40px;
+
+        &_title {
+          height: 22px;
+          margin-bottom: 15px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+          color: #333333;
+        }
+
+        &_list {
+          width: 100%;
+          height: 152px;
+          
+          &_item:not(:last-child) {
+            margin-bottom: 10px;
+          }
+
+          &_item {
+            width: 100%;
+            height: 17px;
+            display: flex;
+            justify-content: space-between;
+
+            &_title:hover {
+              margin-left: 7px;
+            }
+
+            &_title {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+              color: #FEB700;
+              cursor: pointer;
+            }
+
+            &_amount {
+              font-weight: 400;
+              color: #BDBDBD;
+            }
+
+            &_more {
+              height: 20px;
+              width: 43px;
+              border-bottom: 1px solid #FEB700;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 17px;
+              color: #FEB700;
+
+              &::after {
+                content: url('../../../public/svg/chevron-yellow.svg');
+                margin-left: 3px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -134,4 +198,22 @@
 
 .cars {
   background-image: url('../../../public/jpg/cars.jpg');
+}
+
+.apartmentsList {
+  height: 189px;
+}
+
+.cottagesList {
+  height: 170px;
+}
+
+.directList {
+  height: 125px;
+}
+
+.DottedBoxYellow {
+  position: absolute;
+  top: 612px;
+  left: -30px;
 }

@@ -1,11 +1,15 @@
 .Footer {
+  width: 100vw;
   height: 158px;
-  margin: 39px 80px 53px;
+  padding-top: 39px;
+  padding-bottom: 53px;
   font-size: 14px;
   line-height: 17px;
 
   &_container {
     height: 100%;
+    width: 1285px;
+    margin: auto;
     display: flex;
     gap: 30px;
 

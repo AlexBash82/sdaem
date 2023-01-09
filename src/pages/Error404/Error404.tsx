@@ -23,10 +23,10 @@ export const Error404 = () => {
             <div className='ErrorPage_container_right_img'/>
           </div>
         </div>
-        <div className='DottedBoxYellow'>
+        <div className='DottedBoxYellowError404'>
           <DottedBox color={'#FFD54F'}/>
         </div>
-        <div className='DottedBoxWhite'>
+        <div className='DottedBoxWhiteError404'>
           <DottedBox color={'#FFFFFF'}/>
         </div>
       </div>
