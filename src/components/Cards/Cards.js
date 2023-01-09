@@ -1,4 +1,5 @@
 import React from 'react'
+import { DottedBox } from '../../Modules/DottedBox/DottedBox'
 import './Cards.scss'
 
 export const Cards = () => {
@@ -150,6 +151,9 @@ export const Cards = () => {
               })}
             </div>
           </div>
+        </div>
+        <div className='DottedBoxYellow'>
+          <DottedBox color={'#FFD54F'}/>
         </div>
       </div>
     </div>

@@ -4,14 +4,15 @@
 
   &_container {
     width: 1280px;
-    height: 560px;
+    height: 570px;
     margin: auto;
     display: flex;
     gap: 30px;
+    position: relative;
 
     &_left {
       width: 953px;
-      height: 560px;
+      height: 570px;
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
@@ -208,4 +209,10 @@
 
 .directList {
   height: 125px;
+}
+
+.DottedBoxYellow {
+  position: absolute;
+  top: 612px;
+  left: -30px;
 }
