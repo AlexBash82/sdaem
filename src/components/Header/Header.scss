@@ -1,4 +1,5 @@
 .Header {
+  width: 100vw;
   font-size: 14px;
   line-height: 17px;
 
@@ -8,7 +9,8 @@
 
     &_container {
       height: 40px;
-      margin: 0 80px;
+      width: 1285px;
+      margin: auto;
       display: flex;
       justify-content: space-between;
 
@@ -47,7 +49,8 @@
 
     &_container {
       height: 60px;
-      margin: 0 80px;
+      width: 1285px;
+      margin: auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -105,12 +108,9 @@
 }
 
 .pointY {
-  position: relative;
-  margin-right: 27px;
 
   &::after {
     content: url('../../../public/svg/point-yellow.svg');
-    position: absolute;
     margin-left: 15px;
   }
 }
