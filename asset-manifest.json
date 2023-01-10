@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sdaem/static/css/main.62c76814.css",
-    "main.js": "/sdaem/static/js/main.3e655cb9.js",
+    "main.css": "/sdaem/static/css/main.b725648a.css",
+    "main.js": "/sdaem/static/js/main.e8af38f7.js",
     "static/js/787.96c3c854.chunk.js": "/sdaem/static/js/787.96c3c854.chunk.js",
     "static/media/Inter-ThinItalicBETA.eot": "/sdaem/static/media/Inter-ThinItalicBETA.d48d71c60397c964c3c3.eot",
     "static/media/Inter-ThinItalicBETA.ttf": "/sdaem/static/media/Inter-ThinItalicBETA.ab1bddda75ef8313afa1.ttf",
@@ -83,32 +83,39 @@
     "static/media/mastercard.svg": "/sdaem/static/media/mastercard.679a488ad8d007bbd1a8.svg",
     "static/media/cars.jpg": "/sdaem/static/media/cars.08fd21a43e6f4d2f23cd.jpg",
     "static/media/securecode.svg": "/sdaem/static/media/securecode.9d81ce688fc53737b4ca.svg",
+    "static/media/apart001.jpg": "/sdaem/static/media/apart001.9959e50d531cb7584842.jpg",
     "static/media/verified-by-visa.svg": "/sdaem/static/media/verified-by-visa.cf71652e876749e2d4c6.svg",
     "static/media/webpay.svg": "/sdaem/static/media/webpay.668c1ad7e87b511d5082.svg",
     "static/media/belkart.svg": "/sdaem/static/media/belkart.dba305671653ab5f3ef6.svg",
     "static/media/inst.svg": "/sdaem/static/media/inst.fc6fe3263c89ca8d129f.svg",
     "static/media/adjust.svg": "/sdaem/static/media/adjust.bf45f83f03f5f053271e.svg",
     "static/media/404.svg": "/sdaem/static/media/404.ce259abcb2c64aed74fd.svg",
+    "static/media/member-gray.svg": "/sdaem/static/media/member-gray.fc4ff867333c0795ed3a.svg",
     "static/media/vk.svg": "/sdaem/static/media/vk.ae9fd1ce0da26d63fbf0.svg",
     "static/media/like.svg": "/sdaem/static/media/like.ac7cdd0665cc51e2ce40.svg",
     "static/media/home.svg": "/sdaem/static/media/home.7f7945d735f856f2ebd2.svg",
+    "static/media/phone-blue.svg": "/sdaem/static/media/phone-blue.bca4c2d49ff1b72541b2.svg",
+    "static/media/point-gray-big.svg": "/sdaem/static/media/point-gray-big.05df7806d3714457bbd1.svg",
     "static/media/point-blue.svg": "/sdaem/static/media/point-blue.b3ca8ed5911d5ffb2609.svg",
     "static/media/point-yellow.svg": "/sdaem/static/media/point-yellow.2ed5cce691bd11749537.svg",
     "static/media/point-gray.svg": "/sdaem/static/media/point-gray.32b0e3fa5551a4c089b8.svg",
     "index.html": "/sdaem/index.html",
     "static/media/facebook.svg": "/sdaem/static/media/facebook.53955358e2927df769a6.svg",
     "static/media/metro-gray.svg": "/sdaem/static/media/metro-gray.9c98c8e5b0783ab6e027.svg",
+    "static/media/chevron-right.svg": "/sdaem/static/media/chevron-right.584d3e7f05a01cc8b8a2.svg",
     "static/media/chevron-right-white.svg": "/sdaem/static/media/chevron-right-white.583e901c8545e3d6c001.svg",
     "static/media/chevron-right-black.svg": "/sdaem/static/media/chevron-right-black.e09a6dcc0f871c8f68af.svg",
+    "static/media/chevron-left.svg": "/sdaem/static/media/chevron-left.469815b0fd86ab567053.svg",
     "static/media/chevron-down.svg": "/sdaem/static/media/chevron-down.5660074e6b259d3c907c.svg",
     "static/media/chevron-blue.svg": "/sdaem/static/media/chevron-blue.a1f5de50219ba5c418a7.svg",
     "static/media/chevron-yellow.svg": "/sdaem/static/media/chevron-yellow.241c95f55249fe545a66.svg",
-    "main.62c76814.css.map": "/sdaem/static/css/main.62c76814.css.map",
-    "main.3e655cb9.js.map": "/sdaem/static/js/main.3e655cb9.js.map",
+    "static/media/dot-gray.svg": "/sdaem/static/media/dot-gray.7357adb53ddec41490d5.svg",
+    "main.b725648a.css.map": "/sdaem/static/css/main.b725648a.css.map",
+    "main.e8af38f7.js.map": "/sdaem/static/js/main.e8af38f7.js.map",
     "787.96c3c854.chunk.js.map": "/sdaem/static/js/787.96c3c854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62c76814.css",
-    "static/js/main.3e655cb9.js"
+    "static/css/main.b725648a.css",
+    "static/js/main.e8af38f7.js"
   ]
 }
