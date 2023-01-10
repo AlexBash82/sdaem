@@ -1,0 +1,206 @@
+.CardLease {
+  width: 406px;
+  height: 522px;
+  filter: drop-shadow(0px 20px 40px rgba(135, 124, 202, 0.15));
+  position: relative;
+  background: #FFFEFE;
+  border-radius: 10px;
+
+  &_gold {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(106.06deg, #FFD54F 1.12%, #FEC100 97.96%);
+    border-radius: 0px 10px 10px 10px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px rgba(147, 79, 0, 0.3);
+    padding: 7.5px 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &_picture {
+    width: 100%;
+    height: 226px;
+    background: #E4E2E2;
+    border-radius: 10px;
+
+    &_photo {
+      height: 226px;
+      background: url('../../../public/jpg/apart001.jpg') center center / contain no-repeat;
+    }
+  }
+
+  &_details {
+    width: 406px;
+    height: 296px;
+    box-sizing: border-box;
+    padding: 20px 20px 13px 20px;
+
+    &_header {
+      width: 100%;
+      height: 42px;
+      display: flex;
+      justify-content: space-between;
+
+      &_prise {
+        &_text {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: #664EF9;
+        }
+
+        &_title {
+          font-weight: 400;
+          color: #BDBDBD;
+        }
+      }
+
+      &_capacity {
+        width: 228px;
+        height: 34px;
+        display: flex;
+        justify-content: space-between;
+        color: #686868;
+
+        &_members {
+          width: 87px;
+          height: 34px;
+          background: #F8F8F8;
+          border-radius: 18px;
+          box-sizing: border-box;
+          padding: 8px 8px 8px 29px;
+          position: relative;
+
+          &::before {
+            content: url('../../../public/svg/member-gray.svg');
+            position: absolute;
+            left: 8px;
+          }
+        }
+
+        &_rooms {
+          width: 68px;
+          height: 34px;
+          background: #F8F8F8;
+          border-radius: 18px;
+          box-sizing: border-box;
+          padding: 8px;
+        }
+
+        &_area {
+          width: 60px;
+          height: 34px;
+          background: #F8F8F8;
+          border-radius: 18px;
+          box-sizing: border-box;
+          padding: 8px;
+        }
+      }
+    }
+
+    &_location {
+      margin-top: 24px;
+      width: 100%;
+      height: 52px;
+      font-size: 16px;
+      line-height: 19px;
+
+      &_city {
+        margin-left: 25px;
+        position: relative;
+
+        &::before {
+          content: url('../../../public/svg/point-gray-big.svg');
+          position: absolute;
+          left: -25px;
+        }
+      }
+
+      &_other {
+        margin-top: 12px;
+        display: flex;
+        gap: 30px;
+
+        &_subway {
+          margin-left: 26px;
+          position: relative;
+
+          &::before {
+            content: url('../../../public/svg/metro-gray.svg');
+            position: absolute;
+            left: -26px;
+          }
+        }
+
+        &_district {
+          margin-left: 12px;
+          position: relative;
+
+          &::before {
+            content: url('../../../public/svg/dot-gray.svg');
+            position: absolute;
+            left: -12px;
+          }
+        }
+      }
+    }
+
+    &_description {
+      width: 100%;
+      height: 62px;
+      margin-top: 21px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #8291A3;
+    }
+
+    &_line {
+      width: 100%;
+      margin-top: 12px;
+      border-bottom: 1px solid rgba(102, 78, 249, 0.1);
+    }
+
+    &_buttons {
+      width: 100%;
+      height: 37px;
+      margin-top: 13px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+
+      &_contacts {
+        width: 124px;
+        height: 37px;
+        box-sizing: border-box;
+        padding: 10px 15px 10px 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+        border-radius: 18px;
+        color: #664EF9;
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+          content: url('../../../public/svg/phone-blue.svg');
+          position: absolute;
+          left: 15px;
+        }
+      }
+
+      &_more {
+        width: 110px;
+        height: 37px;
+        box-sizing: border-box;
+        padding: 10px 15px;
+        background: rgba(255, 213, 79, 0.1);
+        border-radius: 18px;
+        color: #FEC100;
+        cursor: pointer;
+      }
+    }
+  }
+}

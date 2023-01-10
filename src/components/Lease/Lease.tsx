@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardLease } from '../CardLease/CardLease'
 import './Lease.scss'
 
 export const Lease = () => {
@@ -15,6 +16,18 @@ export const Lease = () => {
               <div className='Lease_wrap_container_header_right_button lease-btn-metro'>Метро</div>
               <div className='Lease_wrap_container_header_right_button'>Район</div>
             </div>
+          </div>
+          <div className='Lease_wrap_container_board'>
+            <div className='Lease_wrap_container_board_cards'>
+              <CardLease/>
+            </div>
+            <div className='Lease_wrap_container_board_navi'>
+              <div className='Lease_wrap_container_board_navi_buttons'>
+                <div className='Lease_wrap_container_board_navi_buttons_left'/>
+                <div className='Lease_wrap_container_board_navi_buttons_right'/>
+              </div>
+            </div>
+            <div className='Lease_wrap_container_board_info'>info</div>
           </div>
         </div>
       </div>
