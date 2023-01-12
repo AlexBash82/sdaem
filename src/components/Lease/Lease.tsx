@@ -19,7 +19,7 @@ export const Lease = () => {
           </div>
           <div className='Lease_wrap_container_board'>
             <div className='Lease_wrap_container_board_cards'>
-              <CardLease/>
+              <CardLease photoId={1}/>
             </div>
             <div className='Lease_wrap_container_board_navi'>
               <div className='Lease_wrap_container_board_navi_buttons'>
