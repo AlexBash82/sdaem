@@ -5,7 +5,7 @@
   &_wrap::before {
     height: 100%;
     width: 806px;
-    border-radius: 40px 0 0 40px;
+    border-radius: 40px 0 0 0;
     background: linear-gradient(90deg, #94AFFF 0%, #4E64F9 94.5%);
     opacity: 0.1;
     position: absolute;
@@ -97,6 +97,7 @@
           &_buttons {
             width: 92px;
             height: 40px;
+            margin-top: 38px;
             display: flex;
             justify-content: space-between;
 
@@ -141,8 +142,68 @@
         }
 
         &_info {
-          width: 100%;
-          height: 185px;
+          width: 405px;
+          height: 94px;
+          display: flex;
+
+          &_left {
+            width: 203px;
+            height: 100%;
+
+
+            &_number {
+              font-weight: 700;
+              font-size: 60px;
+              line-height: 73px;
+              color: #1E2123;
+
+              & span {
+                color: #664EF9;
+              }
+            }
+
+            &_text {
+              color: #8291A3;
+              opacity: 0.6;
+            }
+          }
+
+          &_line {
+            height: 70px;
+            width: 2px;
+            margin-top: 12px;
+            background: linear-gradient(#94AFFF, #4E64F9);
+          }
+
+          &_right {
+            width: 203px;
+            height: 94px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+
+            &_button {
+              width: 177px;
+              height: 37px;
+              padding: 10px 42px 10px 18px;
+              box-sizing: border-box;
+              background: linear-gradient(90deg, #9D94FF 0%, #6B50E9 94.5%);
+              box-shadow: 0px 15px 40px rgba(0, 96, 206, 0.15);
+              border-radius: 17px;
+              font-weight: 700;
+              color: #FFFFFF;
+              text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+              position: relative;
+
+              &::after {
+                content: url('../../../public/svg/chevron-right-white-l.svg');
+                position: absolute;
+                right: 25.5px;
+                top: 11px;
+              }
+            }
+          }
         }
       }
     }
@@ -160,12 +221,3 @@
     top: 9px;
   }
 }
-
-
-
-// .lease-chevron {
-//   width: 20px;
-//   height: 20px;
-//   background: url('../../../public/svg/chevron-down.svg') 0 0 / contain no-repeat;
-
-// }

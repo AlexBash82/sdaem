@@ -35,7 +35,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 3,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart003.cfb11c09c3cf763660c9.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart003.jpg?raw=true',
       isGold: true,
       prise: '80.00 BYN',
       members: '3 (2+1)',
@@ -48,7 +48,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 4,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart004.6365c546e3f024c387bc.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart004.jpg?raw=true',
       isGold: true,
       prise: '78.00 BYN',
       members: '6 (2+4)',
@@ -61,7 +61,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 5,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart001.9959e50d531cb7584842.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart001.jpg?raw=true',
       isGold: true,
       prise: '65.00 BYN',
       members: '4 (2+2)',
@@ -74,7 +74,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 6,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart002.fb054b5476f22dfa0a76.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart002.jpg?raw=true',
       isGold: false,
       prise: '67.00 BYN',
       members: '5 (2+3)',
@@ -87,7 +87,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 7,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart003.cfb11c09c3cf763660c9.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart003.jpg?raw=true',
       isGold: true,
       prise: '80.00 BYN',
       members: '3 (2+1)',
@@ -100,7 +100,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 8,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart004.6365c546e3f024c387bc.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart004.jpg?raw=true',
       isGold: true,
       prise: '78.00 BYN',
       members: '6 (2+4)',
@@ -113,7 +113,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 9,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart001.9959e50d531cb7584842.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart001.jpg?raw=true',
       isGold: true,
       prise: '65.00 BYN',
       members: '4 (2+2)',
@@ -126,7 +126,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 10,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart002.fb054b5476f22dfa0a76.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart002.jpg?raw=true',
       isGold: false,
       prise: '67.00 BYN',
       members: '5 (2+3)',
@@ -139,7 +139,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 11,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart003.cfb11c09c3cf763660c9.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart003.jpg?raw=true',
       isGold: true,
       prise: '80.00 BYN',
       members: '3 (2+1)',
@@ -152,7 +152,7 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
     },
     {
       id: 12,
-      photo: 'https://alexbash82.github.io/sdaem/static/media/apart004.6365c546e3f024c387bc.jpg',
+      photo: 'https://github.com/AlexBash82/sdaem/blob/master/public/jpg/apart004.jpg?raw=true',
       isGold: true,
       prise: '78.00 BYN',
       members: '6 (2+4)',
