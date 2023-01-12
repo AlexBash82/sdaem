@@ -27,8 +27,14 @@
     border-radius: 10px;
 
     &_photo {
+      // background: url('../../../public/jpg/apart004.jpg') center center / contain no-repeat;
       height: 226px;
-      background: url('../../../public/jpg/apart001.jpg') center center / contain no-repeat;
+      display: flex;
+      justify-content: center;
+
+      & img {
+        height: 100%;
+      }
     }
   }
 
