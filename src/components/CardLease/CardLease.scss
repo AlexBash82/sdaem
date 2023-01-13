@@ -27,10 +27,11 @@
     border-radius: 10px;
 
     &_photo {
-      // background: url('../../../public/jpg/apart004.jpg') center center / contain no-repeat;
       height: 226px;
       display: flex;
       justify-content: center;
+      border-radius: 10px;
+      overflow: hidden;
 
       & img {
         height: 100%;
@@ -77,13 +78,13 @@
           background: #F8F8F8;
           border-radius: 18px;
           box-sizing: border-box;
-          padding: 8px 8px 8px 29px;
+          padding: 8px 7px 8px 28px;
           position: relative;
 
           &::before {
             content: url('../../../public/svg/member-gray.svg');
             position: absolute;
-            left: 8px;
+            left: 7px;
           }
         }
 
@@ -93,7 +94,7 @@
           background: #F8F8F8;
           border-radius: 18px;
           box-sizing: border-box;
-          padding: 8px;
+          padding: 8px 7px;
         }
 
         &_area {
@@ -102,7 +103,7 @@
           background: #F8F8F8;
           border-radius: 18px;
           box-sizing: border-box;
-          padding: 8px;
+          padding: 8px 7px;
         }
       }
     }
