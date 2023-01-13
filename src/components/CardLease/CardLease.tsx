@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { ContactLease } from '../ContacLease/ContactLease'
 import './CardLease.scss'
 
 interface CardLeaseProps {
@@ -6,6 +7,8 @@ interface CardLeaseProps {
 }
 
 export const CardLease: React.FC<CardLeaseProps> = (props) => {
+  const [isOpenContact, setIsOpenContact] = useState(false)
+
   const leaseAparts = [
     {
       id: 1,
@@ -171,6 +174,10 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
 
   const profile = leaseAparts.filter(item => item.id === photoId)[0]
 
+  const openCloseContact = () => {
+    setIsOpenContact(!isOpenContact)
+  }
+
   return (
     <div className='CardLease'>
       {profile.isGold ? <div className='CardLease_gold'>Gold</div> : null}
@@ -206,7 +213,9 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
         <div className='CardLease_details_line'/>
 
         <div className='CardLease_details_buttons'>
-          <div className='CardLease_details_buttons_contacts'>Контакты</div>
+          <div className='CardLease_details_buttons_contacts'
+          onClick={() => openCloseContact()}>Контакты</div>
+          {isOpenContact? <ContactLease profileId={profile.id}/> : false}
           <div className='CardLease_details_buttons_more'>Подробнее</div>
         </div>
       </div>
