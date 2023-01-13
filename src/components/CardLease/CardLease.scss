@@ -178,6 +178,7 @@
       display: flex;
       justify-content: space-between;
       font-weight: 700;
+      position: relative;
 
       &_contacts {
         width: 124px;
@@ -196,6 +197,10 @@
           position: absolute;
           left: 15px;
         }
+
+        &:hover {
+          background: #F5F3FF;
+        }
       }
 
       &_more {
@@ -207,6 +212,10 @@
         border-radius: 18px;
         color: #FEC100;
         cursor: pointer;
+
+        &:hover {
+          background: rgba(255, 213, 79, 0.2);
+        }
       }
     }
   }

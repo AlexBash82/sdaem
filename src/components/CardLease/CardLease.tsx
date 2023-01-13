@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ContactLease } from '../ContacLease/ContactLease'
+import { ContactLease } from '../ContactLease/ContactLease'
 import './CardLease.scss'
 
 interface CardLeaseProps {
@@ -181,7 +181,6 @@ export const CardLease: React.FC<CardLeaseProps> = (props) => {
   return (
     <div className='CardLease'>
       {profile.isGold ? <div className='CardLease_gold'>Gold</div> : null}
-      {/* <div className='CardLease_gold'>Gold</div> */}
       <div className='CardLease_picture'>
         <div className='CardLease_picture_photo'>
           <img src={profile.photo}/>
